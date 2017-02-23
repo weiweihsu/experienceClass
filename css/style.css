@@ -68,7 +68,8 @@ a:hover {
 }
 
 #ToolBar .button.active {
-    background: #BD5961;
+    background: #eaeaea;
+    color: black;
 }
 
 #ToolBar .button.perspectives {
