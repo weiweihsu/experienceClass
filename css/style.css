@@ -4,6 +4,8 @@
    box-sizing: border-box;
  }
 
+
+
 .h3{
   margin-left:  5px !important;
   font-size: 1.5rem !important;
@@ -52,8 +54,8 @@ a:hover{
   color: #fff;
   font-weight: bold;
   border: 1px solid #ccc;
-  padding: 5px 10px;
-  border-radius: 2px;
+  padding: 5px 20px;
+  border: none;
 }
 
 #ToolBar .button.active {
@@ -93,7 +95,7 @@ a:hover{
   padding: 10px;
   padding-left: 20px;
   padding-top: 0px;
-  border-radius: 2px;
+  border-radius: 0px;
   color: #fff;
 
 }
@@ -171,4 +173,10 @@ a:hover{
       -ms-transition-duration: 0s;
        -o-transition-duration: 0s;
           transition-duration: 0s;
+}
+
+.header {
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: bold;
 }
