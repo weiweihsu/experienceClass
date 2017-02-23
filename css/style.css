@@ -7,13 +7,35 @@
 .h3{
   margin-left:  5px !important;
   font-size: 1.5rem !important;
-        color:  #393c3d !important;
+        color:  #fff !important;
 }
 
 
 html {
   font-family: 'Open Sans', sans-serif;
   background: #e0e0e0
+}
+
+a:link, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.by-link {
+    font-size: 1rem;
+    color: #efefef;
+    text-decoration: underline;
+    line-height: 20px;
+}
+
+.by-link:hover {
+    color: #fff;
+    text-decoration: underline;
 }
 
 #Container {
@@ -38,6 +60,26 @@ html {
   background: #BD5961;
 }
 
+#ToolBar .button.perspectives {
+  background: #36213E;
+}
+
+#ToolBar .button.books {
+  background: #554971;
+}
+
+#ToolBar .button.newsletters {
+  background: #63768D;
+}
+
+#ToolBar .button.podcasts {
+  background: #8AC6D0;
+}
+
+#ToolBar .button.videos {
+  background: #B8F3FF;
+}
+
 #ToolBar input {
   padding: 4px;
   border-radius: 2px;
@@ -49,27 +91,31 @@ html {
   background: #ccc;
   margin: 12px;
   padding: 10px;
+  padding-left: 20px;
+  padding-top: 0px;
   border-radius: 2px;
+  color: #fff;
+
 }
 
 .item.perspectives {
-  background: #BD5961;
+  background: #36213E;
 }
 
 .item.books {
-  background: #BD5961;
+  background: #554971;
 }
 
 .item.newsletters {
-  background: #BD5961;
+  background: #63768D;
 }
 
-.item.podcaste {
-  background: #BD5961;
+.item.podcasts {
+  background: #8AC6D0;
 }
 
 .item.videos {
-  background: #BD5961;
+  background: #B8F3FF;
 }
 
 
