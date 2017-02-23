@@ -43,6 +43,7 @@ a:hover{
 #Container {
   width: 100%;
   align-content: center;
+  padding: 20px 20px 20px 0px;
 }
 
 #ToolBar {
@@ -54,7 +55,7 @@ a:hover{
   color: #fff;
   font-weight: bold;
   border: 1px solid #ccc;
-  padding: 5px 20px;
+  padding: 0px 20px;
   border: none;
 }
 
@@ -177,6 +178,12 @@ a:hover{
 
 .header {
     padding-top: 30px;
-    font-size: 50px;
+    padding-left: 10px;
+    font-size: 60px;
     font-weight: bold;
+}
+
+.sub-header {
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
 }
