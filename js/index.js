@@ -65,19 +65,19 @@ $(function(){
     });
 
 
-    //Show org
-    $('#org').click(function () {
+    //Show Org
+    $('#Org').click(function () {
         var $container = $('#Container');
         var $items = $container.find(".item");
-        var org = $container.data("org");
+        var Org = $container.data("Org");
 
         var sorts = {
-            usage: function ($item) { return $item.data("org"); }
+            usage: function ($item) { return $item.data("Org"); }
         };
 
         clearClass($items, "match");
 
-        $container.isotope({ getSortData: sorts, sortBy: 'org', sortAscending: false });
+        $container.isotope({ getSortData: sorts, sortBy: 'Org', sortAscending: false });
         $container.isotope({ filter: '.match' });
 
         $('#ToolBar .button').removeClass("active");
@@ -135,8 +135,8 @@ $(function(){
  * http://github.com/rmm5t/liquidmetal
  *
  * Licensed under the MIT:
- * http://www.opensource.org/licenses/mit-license.php
+ * http://www.opensource.Org/licenses/mit-license.php
  *
- * Copyright (c) 2009-2012, Ryan McGeary (ryan -[at]- mcgeary [*dot*] org)
+ * Copyright (c) 2009-2012, Ryan McGeary (ryan -[at]- mcgeary [*dot*] Org)
  */
 var LiquidMetal=function(){function o(e,t){var n=e.charAt(t);return"A"<=n&&n<="Z"}function u(e,t){var n=e.charAt(t-1);return s.indexOf(n)!=-1}function a(e,t,n,r){for(var i=n;i<r;i++){e[i]=t}return e}var e=0;var t=1;var n=.8;var r=.9;var i=.85;var s=" 	_-";return{lastScore:null,lastScoreArray:null,score:function(t,r){if(r.length===0)return n;if(r.length>t.length)return e;var i=[];var s=t.toLowerCase();r=r.toLowerCase();this._scoreAll(t,s,r,-1,0,[],i);if(i.length==0)return 0;var o=0,u=[];for(var a=0;a<i.length;a++){var f=i[a];var l=0;for(var c=0;c<t.length;c++){l+=f[c]}if(l>o){o=l;u=f}}o/=t.length;this.lastScore=o;this.lastScoreArray=u;return o},_scoreAll:function(s,f,l,c,h,p,d){if(h==l.length){var v=f.charAt(0)==l.charAt(0);var m=v?r:n;a(p,m,p.length,s.length);d.push(p.slice(0));return}var g=l.charAt(h);h++;var y=f.indexOf(g,c);if(y==-1)return;var b=c;while((y=f.indexOf(g,c+1))!=-1){if(u(s,y)){p[y-1]=1;a(p,i,b+1,y-1)}else if(o(s,y)){a(p,i,b+1,y)}else{a(p,e,b+1,y)}p[y]=t;c=y;this._scoreAll(s,f,l,c,h,p,d)}}}}()
