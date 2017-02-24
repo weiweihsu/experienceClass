@@ -65,19 +65,19 @@ $(function(){
     });
 
 
-    //Show Books
-    $('#Books').click(function () {
+    //Show org
+    $('#org').click(function () {
         var $container = $('#Container');
         var $items = $container.find(".item");
-        var Books = $container.data("books");
+        var org = $container.data("org");
 
         var sorts = {
-            usage: function ($item) { return $item.data("books"); }
+            usage: function ($item) { return $item.data("org"); }
         };
 
         clearClass($items, "match");
 
-        $container.isotope({ getSortData: sorts, sortBy: 'books', sortAscending: false });
+        $container.isotope({ getSortData: sorts, sortBy: 'org', sortAscending: false });
         $container.isotope({ filter: '.match' });
 
         $('#ToolBar .button').removeClass("active");
