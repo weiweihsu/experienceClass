@@ -18,7 +18,7 @@ We are looking at creating an on-the-ground training and manufacturing facility 
   * Save the link as a pdf and highlight the key parts of the article (if it's an article)
   * Upload the pdf to **rsrch** folder of this repository
   * Open a new issue in the **issues** tab of this Github repository
-  * Put this title in the title of the issue: **rsrch: xxx.pdf** or **rsrch:xxx.html** 
+  * Put this title in the title of the issue: **rsrch: xxx.pdf** or **rsrch:xxx.html**
 
 
 ## Progress
@@ -26,9 +26,12 @@ We are looking at creating an on-the-ground training and manufacturing facility 
 * See the **issues** tab of this repository for our past and current to-dos
 * Under the **issues** tab, click on **milestones** to see our milestones and deadlines for this project
 * See the **projects** tab to look at the visualized to-dos
+![Roadmap](img/roadmap.pdf "")
 
 ## Documenation
 
+* We will be documenting this project in an indesign file as we go
+* By the end of this it will be published as a book by [Blurb](http://www.blurb.com/)
 * To contribute to the documentation, download blurb plugin [here](http://www.blurb.com/indesign-plugin) (you will need to register for an account) and make sure you have the latest [file](https://drive.google.com/a/cca.edu/file/d/0B6wVPZACLMW7Y3h2dUx3dDJHaDA/view?usp=sharing) of the documentation we are working on
 
 * Subscribe to our Apple Calendar by copying and pasting the link below into a new browser tab (Warning: when you click on it you **will** subscribe to it immediately)
