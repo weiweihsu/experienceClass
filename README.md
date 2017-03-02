@@ -10,6 +10,7 @@ In the Interaction Design Department at California College of the Arts, we are e
 We are looking at creating an on-the-ground training and manufacturing facility / service to actually help those who need prosthetic fittings.
 
 * See our plan, timeline, resources on [Dropbox Paper](https://paper.dropbox.com/doc/Syrian-Refugee-FAULwhXWjvTNnYETJrq2x).
+* To submit an issue or a task from your phone via IFTTT, use this [Applet](https://ifttt.com/applets/197941p)
 
 ## Secondary Research
 
