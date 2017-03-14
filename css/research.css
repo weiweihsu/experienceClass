@@ -73,24 +73,32 @@ a:hover {
     color: black;
 }
 
+#ToolBar .button.hmw {
+    background: #202020;
+}
+
+#ToolBar .button.insights {
+    background: #606060;
+}
+
 #ToolBar .button.quotes {
-    background: #D3CF52;
+    background: #9AA572;
 }
 
 #ToolBar .button.places {
-    background: #75B9BE;
+    background: #5A8F93;
 }
 
 #ToolBar .button.pain_points {
-    background: #DA627D;
-}
-
-#ToolBar .button.beliefs {
     background: #7A918D;
 }
 
+#ToolBar .button.beliefs {
+    background: #AEB1B2;
+}
+
 #ToolBar .button.other {
-    background: #E88963;
+    background: #6B6B6B;
 }
 
 #ToolBar input {
@@ -110,24 +118,48 @@ a:hover {
     color: #fff;
 }
 
+.item.hmw {
+    width: 400px;
+    height: 170px;
+    background: #202020;
+    margin: 12px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 0px;
+    border-radius: 0px;
+    color: #fff;
+}
+
+.item.insights {
+    width: 300px;
+    height: 200px;
+    background: #606060;
+    margin: 12px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 0px;
+    border-radius: 0px;
+    color: #fff;
+}
+
 .item.quotes {
-    background: #D3CF52;
+    background: #9AA572;
 }
 
 .item.places {
-    background: #75B9BE;
+    background: #5A8F93;
 }
 
 .item.pain_points {
-    background: #DA627D;
-}
-
-.item.beliefs {
     background: #7A918D;
 }
 
+.item.beliefs {
+    background: #AEB1B2;
+}
+
 .item.other {
-    background: #E88963;
+    background: #6B6B6B;
 }
 
 
