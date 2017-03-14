@@ -270,14 +270,22 @@ a:hover {
     transition-duration: 0s;
 }
 
+.head {
+    padding-top: 30px;
+    padding-left: 100px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
 .header {
     padding-top: 30px;
     padding-left: 100px;
-    font-size: 60px;
+    padding-bottom: 15px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 .sub-header {
-    padding: 10px 10px 10px 100px;
+    padding: 20px 10px 10px 100px;
     font-size: 20px;
 }
