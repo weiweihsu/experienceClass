@@ -44,6 +44,62 @@ a:hover {
     padding: 0px 20px 20px 0px;
 }
 
+#ContainerAccess {
+    margin-left: 90px;
+    width: 80%;
+    align-content: center;
+    padding: 0px 20px 20px 0px;
+}
+
+#ContainerTraining {
+    margin-left: 90px;
+    width: 80%;
+    align-content: center;
+    padding: 0px 20px 20px 0px;
+}
+
+#ContainerEfficacy {
+    margin-left: 90px;
+    width: 80%;
+    align-content: center;
+    padding: 0px 20px 20px 0px;
+}
+
+#ContainerCare {
+    margin-left: 90px;
+    width: 80%;
+    align-content: center;
+    padding: 0px 20px 20px 0px;
+}
+
+#ContainerProduct {
+    margin-left: 90px;
+    width: 80%;
+    align-content: center;
+    padding: 0px 20px 20px 0px;
+}
+
+#ContainerEnvironment {
+    margin-left: 90px;
+    width: 80%;
+    align-content: center;
+    padding: 0px 20px 20px 0px;
+}
+
+#ContainerCulture {
+    margin-left: 90px;
+    width: 80%;
+    align-content: center;
+    padding: 0px 20px 20px 0px;
+}
+
+#ContainerPartners {
+    margin-left: 90px;
+    width: 80%;
+    align-content: center;
+    padding: 0px 20px 20px 0px;
+}
+
 #ToolBar {
     padding: 10px;
 }
@@ -75,10 +131,12 @@ a:hover {
 
 #ToolBar .button.hmw {
     background: #202020;
+    color: #9AA572;
 }
 
 #ToolBar .button.insights {
-    background: #606060;
+    background: #303030;
+    color: #7A918D;
 }
 
 #ToolBar .button.quotes {
@@ -107,8 +165,8 @@ a:hover {
 }
 
 .item {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     background: #ccc;
     margin: 12px;
     padding: 10px;
@@ -120,26 +178,26 @@ a:hover {
 
 .item.hmw {
     width: 400px;
-    height: 170px;
+    height: 230px;
     background: #202020;
     margin: 12px;
     padding: 10px;
     padding-left: 20px;
     padding-top: 0px;
     border-radius: 0px;
-    color: #fff;
+    color: #9AA572;
 }
 
 .item.insights {
     width: 300px;
-    height: 200px;
-    background: #606060;
+    height: 230px;
+    background: #303030;
     margin: 12px;
     padding: 10px;
     padding-left: 20px;
     padding-top: 0px;
     border-radius: 0px;
-    color: #fff;
+    color: #7A918D;
 }
 
 .item.quotes {

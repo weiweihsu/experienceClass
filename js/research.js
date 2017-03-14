@@ -4,6 +4,46 @@ $(function(){
     layoutMode: 'fitRows'
   });
 
+  $('#ContainerAccess').isotope({
+    itemSelector: '.item',
+    layoutMode: 'fitRows'
+  });
+
+  $('#ContainerTraining').isotope({
+    itemSelector: '.item',
+    layoutMode: 'fitRows'
+  });
+
+  $('#ContainerEfficacy').isotope({
+    itemSelector: '.item',
+    layoutMode: 'fitRows'
+  });
+
+  $('#ContainerCare').isotope({
+    itemSelector: '.item',
+    layoutMode: 'fitRows'
+  });
+
+  $('#ContainerProduct').isotope({
+    itemSelector: '.item',
+    layoutMode: 'fitRows'
+  });
+
+  $('#ContainerEnvironment').isotope({
+    itemSelector: '.item',
+    layoutMode: 'fitRows'
+  });
+
+  $('#ContainerCulture').isotope({
+    itemSelector: '.item',
+    layoutMode: 'fitRows'
+  });
+
+  $('#ContainerPartners').isotope({
+    itemSelector: '.item',
+    layoutMode: 'fitRows'
+  });
+
   // Module Search
     $('#ModuleSearch').keyup(function () {
         var search = $(this).val();
