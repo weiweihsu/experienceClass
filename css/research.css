@@ -16,12 +16,12 @@ html {
 }
 
 a:link, a:visited {
-    color: #fff;
-    text-decoration: none;
+    color: #101010;
+    text-decoration: underline;
 }
 
 a:hover {
-    color: #fff;
+    color: #303030;
     text-decoration: underline;
 }
 
