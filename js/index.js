@@ -69,13 +69,93 @@ $(function(){
     $('#Org').click(function () {
         var $container = $('#Container');
         var $items = $container.find(".item.Org");
-        // var Org = $container.data("Org");
+        var Org = $container.data("Org");
 
         var sorts = {
             name: function ($item) { return $item.find(".title").text(); }
         };
 
-        addClass($items, "match");
+        $items.addClass("match");
+
+        $container.isotope({ getSortData: sorts, sortBy: 'name', sortAscending: true });
+        $container.isotope({ filter: '.match' });
+
+        $('#ToolBar .button').removeClass("active");
+        $(this).addClass("active");
+
+    });
+
+    //Show perspectives
+    $('#perspectives').click(function () {
+        var $container = $('#Container');
+        var $items = $container.find(".item.perspectives");
+        var perspectives = $container.data("perspectives");
+
+        var sorts = {
+            name: function ($item) { return $item.find(".title").text(); }
+        };
+
+        $items.addClass("match");
+
+        $container.isotope({ getSortData: sorts, sortBy: 'name', sortAscending: true });
+        $container.isotope({ filter: '.match' });
+
+        $('#ToolBar .button').removeClass("active");
+        $(this).addClass("active");
+
+    });
+
+    //Show perspectives
+    $('#newsletters').click(function () {
+        var $container = $('#Container');
+        var $items = $container.find(".item.newsletters");
+        var newsletters = $container.data("newsletters");
+
+        var sorts = {
+            name: function ($item) { return $item.find(".title").text(); }
+        };
+
+        $items.addClass("match");
+
+        $container.isotope({ getSortData: sorts, sortBy: 'name', sortAscending: true });
+        $container.isotope({ filter: '.match' });
+
+        $('#ToolBar .button').removeClass("active");
+        $(this).addClass("active");
+
+    });
+
+    //Show podcasts
+    $('#podcasts').click(function () {
+        var $container = $('#Container');
+        var $items = $container.find(".item.podcasts");
+        var podcasts = $container.data("podcasts");
+
+        var sorts = {
+            name: function ($item) { return $item.find(".title").text(); }
+        };
+
+        $items.addClass("match");
+
+        $container.isotope({ getSortData: sorts, sortBy: 'name', sortAscending: true });
+        $container.isotope({ filter: '.match' });
+
+        $('#ToolBar .button').removeClass("active");
+        $(this).addClass("active");
+
+    });
+
+    //Show videos
+    $('#videos').click(function () {
+        var $container = $('#Container');
+        var $items = $container.find(".item.videos");
+        var videos = $container.data("videos");
+
+        var sorts = {
+            name: function ($item) { return $item.find(".title").text(); }
+        };
+
+        $items.addClass("match");
 
         $container.isotope({ getSortData: sorts, sortBy: 'name', sortAscending: true });
         $container.isotope({ filter: '.match' });

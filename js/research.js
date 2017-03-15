@@ -107,23 +107,26 @@ $(function(){
 
     //Show Org
     $('#Org').click(function () {
-        var $container = $('#Container');
+        filterContainerToOrg($('#Container'));
+        filterContainerToOrg($('#ContainerAccess'));
+        // ...
+
+        $('#ToolBar .button').removeClass("active");
+        $(this).addClass("active");
+    });
+    function filterContainerToOrg($container) {
         var $items = $container.find(".item.Org");
         var Org = $container.data("Org");
 
         var sorts = {
-            usage: function ($item) { return $item.data("Org"); }
+            name: function ($item) { return $item.find(".title").text(); }
         };
 
-        clearClass($items, "match");
+        $items.addClass("match");
 
-        $container.isotope({ getSortData: sorts, sortBy: 'Org', sortAscending: true });
+        $container.isotope({ getSortData: sorts, sortBy: 'name', sortAscending: true });
         $container.isotope({ filter: '.match' });
-
-        $('#ToolBar .button').removeClass("active");
-        $(this).addClass("active");
-
-    });
+    }
 
     // Show All
     $('#ShowAllModules').click(function () {
