@@ -105,18 +105,60 @@ $(function(){
     });
 
 
-    //Show Org
-    $('#Org').click(function () {
-        filterContainerToOrg($('#Container'));
-        filterContainerToOrg($('#ContainerAccess'));
+    //Show beliefs
+    $('#beliefs').click(function () {
+        filterContainerTobeliefs($('#Container'));
+        filterContainerTobeliefs($('#ContainerAccess'));
+        filterContainerTobeliefs($('#ContainerTraining'));
+        filterContainerTobeliefs($('#ContainerEfficacy'));
+        filterContainerTobeliefs($('#ContainerCare'));
+        filterContainerTobeliefs($('#ContainerProduct'));
+        filterContainerTobeliefs($('#ContainerEnvironment'));
+        filterContainerTobeliefs($('#ContainerCulture'));
+        filterContainerTobeliefs($('#ContainerPartners'));
         // ...
 
+        clearClass($items, "match");
         $('#ToolBar .button').removeClass("active");
         $(this).addClass("active");
+
     });
-    function filterContainerToOrg($container) {
-        var $items = $container.find(".item.Org");
-        var Org = $container.data("Org");
+    function filterContainerTobeliefs($container) {
+        var $items = $container.find(".item.beliefs");
+        var beliefs = $container.data("beliefs");
+
+        var sorts = {
+            name: function ($item) { return $item.find(".title").text(); }
+        };
+
+        $items.addClass("match");
+
+
+        $container.isotope({ getSortData: sorts, sortBy: 'name', sortAscending: true });
+        $container.isotope({ filter: '.match' });
+    }
+
+    //Show quotes
+    $('#quotes').click(function () {
+        filterContainerToquotes($('#Container'));
+        filterContainerToquotes($('#ContainerAccess'));
+        filterContainerToquotes($('#ContainerTraining'));
+        filterContainerToquotes($('#ContainerEfficacy'));
+        filterContainerToquotes($('#ContainerCare'));
+        filterContainerToquotes($('#ContainerProduct'));
+        filterContainerToquotes($('#ContainerEnvironment'));
+        filterContainerToquotes($('#ContainerCulture'));
+        filterContainerToquotes($('#ContainerPartners'));
+        // ...
+
+        clearClass($items, "match");
+        $('#ToolBar .button').removeClass("active");
+        $(this).addClass("active");
+
+    });
+    function filterContainerToquotes($container) {
+        var $items = $container.find(".item.quotes");
+        var quotes = $container.data("quotes");
 
         var sorts = {
             name: function ($item) { return $item.find(".title").text(); }
