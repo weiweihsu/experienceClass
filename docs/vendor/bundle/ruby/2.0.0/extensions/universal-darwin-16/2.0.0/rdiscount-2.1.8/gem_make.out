@@ -1,5 +1,5 @@
 current directory: /Users/Stars/Documents/Weiwei/syrianrefugee/docs/vendor/bundle/ruby/2.0.0/gems/rdiscount-2.1.8/ext
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20170317-5303-zq6pmu.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20170317-74270-1g9bvgr.rb extconf.rb
 checking for random()... yes
 checking for srandom()... yes
 checking for rand()... yes
@@ -469,5 +469,5 @@ linking shared-object rdiscount.bundle
 
 current directory: /Users/Stars/Documents/Weiwei/syrianrefugee/docs/vendor/bundle/ruby/2.0.0/gems/rdiscount-2.1.8/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 rdiscount.bundle ./.gem.20170317-5303-tvnbe3
+/usr/bin/install -c -m 0755 rdiscount.bundle ./.gem.20170317-74270-1ic2pxx
 installing default rdiscount libraries

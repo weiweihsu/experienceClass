@@ -1,5 +1,5 @@
 current directory: /Users/Stars/Documents/Weiwei/syrianrefugee/docs/vendor/bundle/ruby/2.0.0/gems/RedCloth-4.2.9/ext/redcloth_scan
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20170317-5303-tgmkz2.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20170317-74270-5rj11d.rb extconf.rb
 checking for main() in -lc... yes
 creating Makefile
 
@@ -19,5 +19,5 @@ linking shared-object redcloth_scan.bundle
 
 current directory: /Users/Stars/Documents/Weiwei/syrianrefugee/docs/vendor/bundle/ruby/2.0.0/gems/RedCloth-4.2.9/ext/redcloth_scan
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 redcloth_scan.bundle ./.gem.20170317-5303-r4wx87
+/usr/bin/install -c -m 0755 redcloth_scan.bundle ./.gem.20170317-74270-1vfuc81
 installing default redcloth_scan libraries

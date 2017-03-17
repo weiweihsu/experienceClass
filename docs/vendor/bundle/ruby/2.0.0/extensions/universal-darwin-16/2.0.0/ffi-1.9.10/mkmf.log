@@ -223,7 +223,7 @@ int t(void) { ffi_prep_cif_var(); return 0; }
 1 warning generated.
 Undefined symbols for architecture x86_64:
   "_ffi_prep_cif_var", referenced from:
-      _t in conftest-73b625.o
+      _t in conftest-f19cbc.o
 ld: symbol(s) not found for architecture x86_64
 conftest.c:5:15: warning: implicit declaration of function 'ffi_prep_cif_var' is invalid in C99 [-Wimplicit-function-declaration]
 int t(void) { ffi_prep_cif_var(); return 0; }

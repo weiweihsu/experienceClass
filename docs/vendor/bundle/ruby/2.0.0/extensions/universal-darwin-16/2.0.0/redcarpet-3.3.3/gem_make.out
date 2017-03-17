@@ -1,5 +1,5 @@
 current directory: /Users/Stars/Documents/Weiwei/syrianrefugee/docs/vendor/bundle/ruby/2.0.0/gems/redcarpet-3.3.3/ext/redcarpet
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20170317-5303-2sik1a.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20170317-74270-1xu4ozk.rb extconf.rb
 creating Makefile
 
 current directory: /Users/Stars/Documents/Weiwei/syrianrefugee/docs/vendor/bundle/ruby/2.0.0/gems/redcarpet-3.3.3/ext/redcarpet
@@ -49,5 +49,5 @@ linking shared-object redcarpet.bundle
 
 current directory: /Users/Stars/Documents/Weiwei/syrianrefugee/docs/vendor/bundle/ruby/2.0.0/gems/redcarpet-3.3.3/ext/redcarpet
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 redcarpet.bundle ./.gem.20170317-5303-1l4yrbb
+/usr/bin/install -c -m 0755 redcarpet.bundle ./.gem.20170317-74270-3itwbg
 installing default redcarpet libraries

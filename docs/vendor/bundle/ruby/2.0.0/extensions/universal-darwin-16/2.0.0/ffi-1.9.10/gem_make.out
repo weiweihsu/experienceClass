@@ -1,5 +1,5 @@
 current directory: /Users/Stars/Documents/Weiwei/syrianrefugee/docs/vendor/bundle/ruby/2.0.0/gems/ffi-1.9.10/ext/ffi_c
-/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20170317-5303-rwtxij.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20170317-74270-1s5ek5j.rb extconf.rb
 checking for ffi.h... no
 checking for ffi.h in /usr/local/include,/usr/include/ffi... no
 checking for rb_thread_blocking_region()... yes
@@ -263,5 +263,5 @@ compiling Variadic.c
 linking shared-object ffi_c.bundle
 ld: warning: could not create compact unwind for _ffi_call_unix64: does not use RBP or RSP based frame
 ld: warning: could not create compact unwind for .LFB3: non-standard register 5 being saved in prolog
-/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20170317-5303-u7117s
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20170317-74270-ij3xej
 installing default ffi_c libraries
