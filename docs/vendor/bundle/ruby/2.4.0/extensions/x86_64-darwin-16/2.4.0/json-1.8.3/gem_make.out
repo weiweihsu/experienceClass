@@ -1,5 +1,5 @@
 current directory: /Users/Stars/Documents/Weiwei/syrianrefugee/docs/vendor/bundle/ruby/2.4.0/gems/json-1.8.3/ext/json/ext/generator
-/usr/local/opt/ruby/bin/ruby -r ./siteconf20170317-5809-tbctc7.rb extconf.rb
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20170317-10752-uuzfrs.rb extconf.rb
 creating Makefile
 
 current directory: /Users/Stars/Documents/Weiwei/syrianrefugee/docs/vendor/bundle/ruby/2.4.0/gems/json-1.8.3/ext/json/ext/generator
