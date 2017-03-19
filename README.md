@@ -28,7 +28,7 @@ We are looking at creating an on-the-ground training and manufacturing facility 
 * Under the **issues** tab, click on **milestones** to see our milestones and deadlines for this project
 * See the **projects** tab to look at the visualized to-dos
 * This is the roadmap of the project
-![Roadmap](img/roadmap.png)
+![Roadmap](assets/img/roadmap.png)
 
 ## Documenation
 
