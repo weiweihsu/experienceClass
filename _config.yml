@@ -21,8 +21,8 @@ baseurl: '/syrianrefugee'
 
 # Author/Organization info to be displayed in the templates
 author:
-  name: Name
-  url: http://localhost:4000
+  name: Weiwei Hsu
+  url: http://www.weiweihsu.com
 
 # Point the logo URL at a file in your repo or hosted elsewhere by your organization
 logourl:
