@@ -1,6 +1,6 @@
 # Designing Services for Syrian Refugees
 
-Hello, this is a team project with Nathaniel Smith, Andres Hurtado, Cegan Dodge, Jennifer Kim, and Weiwei Hsu in Undergraduate Interaction Design 4: Experience.
+Hello, this is a team project with Nathaniel Smith, Andres Hurtado, Jennifer Kim, and Weiwei Hsu in Undergraduate Interaction Design 4: Experience.
 
 ## Overview
 An estimate of 1 million Syrians are physically injured, and roughly 80,000 need prosthetic fittings to replace limbs lost to the war.
