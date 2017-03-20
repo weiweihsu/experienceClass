@@ -35,11 +35,11 @@ navigation:
   url: ./
   internal: true
 - text: Research
-  url: example_page/
+  url: research/
   internal: true
-- text: DOCter Repo
-  url: https://github.com/cfpb/DOCter
-  internal: false
+- text: Synthesis
+  url: synthesis/
+  internal: true
 
 # Repo list
 # List repos that you would like to appear on the homepage here
