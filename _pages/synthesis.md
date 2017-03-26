@@ -9,5 +9,9 @@ To document the information we had, a [page](http://www.weiweihsu.com/syrianrefu
 
 <img src="{{site.baseurl}}/assets/img/synthesis.png" style="width:100%">
 
+Creating groups of information from research as themes emerged.
 <img src="{{site.baseurl}}/assets/img/process2.jpg" style="width:100%">
+<br /><br />
+
+Drawing insights from different topic areas and creating challenge statements.
 <img src="{{site.baseurl}}/assets/img/process.jpg" style="width:100%">
