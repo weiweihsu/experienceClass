@@ -17,10 +17,8 @@ We are in the process of creating an on-the-ground training service to help thos
 * See [Information on Syrian Refugee](http://www.weiweihsu.com/syrianrefugee/info.html) for a collection of our secondary research
 * See [Research on Syrian Refuge](http://www.weiweihsu.com/syrianrefugee/synthesis.html) to view the synthesis of our primary and secondary research
 * To contribute to the directory please:
-  * Save the link as a pdf and highlight the key parts of the article (if it's an article)
-  * Upload the pdf to **rsrch** folder of this repository
   * Open a new issue in the **issues** tab of this Github repository
-  * Put this title in the title of the issue: **rsrch: xxx.pdf** or **rsrch:xxx.html**
+  * Put title of the link in the title of the issue: **rsrch: xxx.pdf** or **rsrch:xxx.html**
 
 
 ## Progress
@@ -33,9 +31,8 @@ We are in the process of creating an on-the-ground training service to help thos
 
 ## Documenation
 
-* We will be documenting this project in an indesign file as we go
-* By the end of this it will be published as a book by [Blurb](http://www.blurb.com/)
-* To contribute to the documentation, download blurb plugin [here](http://www.blurb.com/indesign-plugin) (you will need to register for an account) and make sure you have the latest [file](https://drive.google.com/a/cca.edu/file/d/0B6wVPZACLMW7Y3h2dUx3dDJHaDA/view?usp=sharing) of the documentation we are working on
+* To avoid having a design project being created behind the curtain, a [website](http://www.weiweihsu.com/syrianrefugee/) has been created to document our process and Progress
+* Since the process will generate ideas on several potential final prototypes, we would like to document other design opportunities that we didn't pursue, and support those opportunities with evidence through documentation
 
 * Subscribe to our Apple Calendar by copying and pasting the link below into a new browser tab (Warning: when you click on it you **will** subscribe to it immediately)
 
