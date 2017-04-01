@@ -68,6 +68,7 @@ $(function(){
     //Show Org
     $('#Org').click(function () {
         var $container = $('#Container');
+        clearClass($container.find(".item"), "match");
         var $items = $container.find(".item.Org");
         var Org = $container.data("Org");
 
@@ -88,6 +89,7 @@ $(function(){
     //Show perspectives
     $('#perspectives').click(function () {
         var $container = $('#Container');
+        clearClass($container.find(".item"), "match");
         var $items = $container.find(".item.perspectives");
         var perspectives = $container.data("perspectives");
 
@@ -108,6 +110,7 @@ $(function(){
     //Show perspectives
     $('#newsletters').click(function () {
         var $container = $('#Container');
+        clearClass($container.find(".item"), "match");
         var $items = $container.find(".item.newsletters");
         var newsletters = $container.data("newsletters");
 
@@ -128,6 +131,7 @@ $(function(){
     //Show podcasts
     $('#podcasts').click(function () {
         var $container = $('#Container');
+        clearClass($container.find(".item"), "match");
         var $items = $container.find(".item.podcasts");
         var podcasts = $container.data("podcasts");
 
@@ -148,6 +152,7 @@ $(function(){
     //Show videos
     $('#videos').click(function () {
         var $container = $('#Container');
+        clearClass($container.find(".item"), "match");
         var $items = $container.find(".item.videos");
         var videos = $container.data("videos");
 
@@ -168,6 +173,8 @@ $(function(){
     // Show All
     $('#ShowAllModules').click(function () {
         var $container = $('#Container');
+        clearClass($container.find(".item"), "match");
+
         var $items = $container.find(".item");
         var sorts = {
             name: function ($item) { return $item.find(".title").text(); }

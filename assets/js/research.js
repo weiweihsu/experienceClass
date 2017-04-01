@@ -124,6 +124,7 @@ $(function(){
 
     });
     function filterContainerTobeliefs($container) {
+        clearClass($container.find(".item"), "match");
         var $items = $container.find(".item.beliefs");
         var beliefs = $container.data("beliefs");
 
@@ -157,6 +158,7 @@ $(function(){
 
     });
     function filterContainerToquotes($container) {
+        clearClass($container.find(".item"), "match");
         var $items = $container.find(".item.quotes");
         var quotes = $container.data("quotes");
 
@@ -165,6 +167,176 @@ $(function(){
         };
 
         $items.addClass("match");
+
+        $container.isotope({ getSortData: sorts, sortBy: 'name', sortAscending: true });
+        $container.isotope({ filter: '.match' });
+    }
+
+    //Show places
+    $('#places').click(function () {
+        filterContainerToplaces($('#Container'));
+        filterContainerToplaces($('#ContainerAccess'));
+        filterContainerToplaces($('#ContainerTraining'));
+        filterContainerToplaces($('#ContainerEfficacy'));
+        filterContainerToplaces($('#ContainerCare'));
+        filterContainerToplaces($('#ContainerProduct'));
+        filterContainerToplaces($('#ContainerEnvironment'));
+        filterContainerToplaces($('#ContainerCulture'));
+        filterContainerToplaces($('#ContainerPartners'));
+        // ...
+
+        clearClass($items, "match");
+        $('#ToolBar .button').removeClass("active");
+        $(this).addClass("active");
+
+    });
+    function filterContainerToplaces($container) {
+        clearClass($container.find(".item"), "match");
+        var $items = $container.find(".item.places");
+        var places = $container.data("places");
+
+        var sorts = {
+            name: function ($item) { return $item.find(".title").text(); }
+        };
+
+        $items.addClass("match");
+
+
+        $container.isotope({ getSortData: sorts, sortBy: 'name', sortAscending: true });
+        $container.isotope({ filter: '.match' });
+    }
+
+    //Show pain_points
+    $('#pain_points').click(function () {
+        filterContainerTopain_points($('#Container'));
+        filterContainerTopain_points($('#ContainerAccess'));
+        filterContainerTopain_points($('#ContainerTraining'));
+        filterContainerTopain_points($('#ContainerEfficacy'));
+        filterContainerTopain_points($('#ContainerCare'));
+        filterContainerTopain_points($('#ContainerProduct'));
+        filterContainerTopain_points($('#ContainerEnvironment'));
+        filterContainerTopain_points($('#ContainerCulture'));
+        filterContainerTopain_points($('#ContainerPartners'));
+        // ...
+
+        clearClass($items, "match");
+        $('#ToolBar .button').removeClass("active");
+        $(this).addClass("active");
+
+    });
+    function filterContainerTopain_points($container) {
+        clearClass($container.find(".item"), "match");
+        var $items = $container.find(".item.pain_points");
+        var pain_points = $container.data("pain_points");
+
+        var sorts = {
+            name: function ($item) { return $item.find(".title").text(); }
+        };
+
+        $items.addClass("match");
+
+
+        $container.isotope({ getSortData: sorts, sortBy: 'name', sortAscending: true });
+        $container.isotope({ filter: '.match' });
+    }
+
+    //Show other
+    $('#other').click(function () {
+        filterContainerToother($('#Container'));
+        filterContainerToother($('#ContainerAccess'));
+        filterContainerToother($('#ContainerTraining'));
+        filterContainerToother($('#ContainerEfficacy'));
+        filterContainerToother($('#ContainerCare'));
+        filterContainerToother($('#ContainerProduct'));
+        filterContainerToother($('#ContainerEnvironment'));
+        filterContainerToother($('#ContainerCulture'));
+        filterContainerToother($('#ContainerPartners'));
+        // ...
+
+        clearClass($items, "match");
+        $('#ToolBar .button').removeClass("active");
+        $(this).addClass("active");
+
+    });
+    function filterContainerToother($container) {
+        clearClass($container.find(".item"), "match");
+        var $items = $container.find(".item.other");
+        var other = $container.data("other");
+
+        var sorts = {
+            name: function ($item) { return $item.find(".title").text(); }
+        };
+
+        $items.addClass("match");
+
+
+        $container.isotope({ getSortData: sorts, sortBy: 'name', sortAscending: true });
+        $container.isotope({ filter: '.match' });
+    }
+
+    //Show hmw
+    $('#hmw').click(function () {
+        filterContainerTohmw($('#Container'));
+        filterContainerTohmw($('#ContainerAccess'));
+        filterContainerTohmw($('#ContainerTraining'));
+        filterContainerTohmw($('#ContainerEfficacy'));
+        filterContainerTohmw($('#ContainerCare'));
+        filterContainerTohmw($('#ContainerProduct'));
+        filterContainerTohmw($('#ContainerEnvironment'));
+        filterContainerTohmw($('#ContainerCulture'));
+        filterContainerTohmw($('#ContainerPartners'));
+        // ...
+
+        clearClass($items, "match");
+        $('#ToolBar .button').removeClass("active");
+        $(this).addClass("active");
+
+    });
+    function filterContainerTohmw($container) {
+        clearClass($container.find(".item"), "match");
+        var $items = $container.find(".item.hmw");
+        var hmw = $container.data("hmw");
+
+        var sorts = {
+            name: function ($item) { return $item.find(".title").text(); }
+        };
+
+        $items.addClass("match");
+
+
+        $container.isotope({ getSortData: sorts, sortBy: 'name', sortAscending: true });
+        $container.isotope({ filter: '.match' });
+    }
+
+    //Show insights
+    $('#insights').click(function () {
+        filterContainerToinsights($('#Container'));
+        filterContainerToinsights($('#ContainerAccess'));
+        filterContainerToinsights($('#ContainerTraining'));
+        filterContainerToinsights($('#ContainerEfficacy'));
+        filterContainerToinsights($('#ContainerCare'));
+        filterContainerToinsights($('#ContainerProduct'));
+        filterContainerToinsights($('#ContainerEnvironment'));
+        filterContainerToinsights($('#ContainerCulture'));
+        filterContainerToinsights($('#ContainerPartners'));
+        // ...
+
+        clearClass($items, "match");
+        $('#ToolBar .button').removeClass("active");
+        $(this).addClass("active");
+
+    });
+    function filterContainerToinsights($container) {
+        clearClass($container.find(".item"), "match");
+        var $items = $container.find(".item.insights");
+        var insights = $container.data("insights");
+
+        var sorts = {
+            name: function ($item) { return $item.find(".title").text(); }
+        };
+
+        $items.addClass("match");
+
 
         $container.isotope({ getSortData: sorts, sortBy: 'name', sortAscending: true });
         $container.isotope({ filter: '.match' });
