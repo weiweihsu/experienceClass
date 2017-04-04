@@ -7,7 +7,7 @@ An estimate of 1 million Syrians are physically injured, and roughly 80,000 need
 
 In the Interaction Design Department at California College of the Arts, we are exploring the growing refugee crisis and how products and services might be designed and leveraged for the continued migration of millions of people.
 
-We are in the process of creating an on-the-ground training service to help those who need prosthetic fittings.
+We are in the process of creating a universal training protocol for prosthetics fitting, with thorough considerations on the limitations refugees might have.
 
 * See our plan, timeline, resources on [Dropbox Paper](https://paper.dropbox.com/doc/Syrian-Refugee-FAULwhXWjvTNnYETJrq2x).
 * To submit an issue or a task from your phone via IFTTT, use this [Applet](https://ifttt.com/applets/197941p)
