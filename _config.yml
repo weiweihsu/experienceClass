@@ -41,7 +41,7 @@ navigation:
   url: synthesis/
   internal: true
   - text: Process
-    url: Process/
+    url: process/
     internal: true
 
 # Repo list
