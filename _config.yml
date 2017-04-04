@@ -40,9 +40,9 @@ navigation:
 - text: Synthesis
   url: synthesis/
   internal: true
-  - text: Process
-    url: process/
-    internal: true
+- text: Process
+  url: process/
+  internal: true
 
 # Repo list
 # List repos that you would like to appear on the homepage here
