@@ -19,6 +19,6 @@ A documentation [page](http://www.weiweihsu.com/syrianrefugee/info.html) was cre
 ## Primary Research
 
 Andres Pedtke - Business Model
-{% video https://drive.google.com/file/d/0BwKHqeB0SDApOE4wSGN6WEdnOTg/preview width=640 height=480 %}
+<!-- {% video https://drive.google.com/file/d/0BwKHqeB0SDApOE4wSGN6WEdnOTg/preview width=640 height=480 %}
 
-<iframe src="https://drive.google.com/file/d/0BwKHqeB0SDApOE4wSGN6WEdnOTg/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/0BwKHqeB0SDApOE4wSGN6WEdnOTg/preview" width="640" height="480"></iframe> -->
