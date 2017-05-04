@@ -19,6 +19,8 @@ This tool is integrated into both the text message and the Facebook messenger pl
 
 **Study Guide**
 
+<img src="{{site.baseurl}}/assets/img/invision.PNG" style="width:50%">
+
 **CMS**
 
 
