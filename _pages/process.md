@@ -3,17 +3,19 @@ layout: default
 title:  "Process"
 ---
 
-## [In Process Service Blue Print](https://drive.google.com/file/d/0BwKHqeB0SDApelY0QzNFZW5RQWM/view)
+## In Process Service Blue Print
 This is the data version of the blue print. It needs to be pushed into the final state and could use some revising.
-<img src="{{site.baseurl}}/assets/img/serviceblueprint.pdf" style="width:100%"> -->
+Visit this [page](https://drive.google.com/file/d/0BwKHqeB0SDApelY0QzNFZW5RQWM/view) to view the full version.
+<img src="{{site.baseurl}}/assets/img/serviceblueprint.pdf" style="width:100%">
 
 ## Prototypes
 
-# Patient Assessment Chatbot
+**Patient Assessment Chatbot**
+{% video {{site.baseurl}}/assets/movie/LIMbot.mp4}
 
-# Study Guide
+**Study Guide**
 
-#CMS
+**CMS**
 
 
 

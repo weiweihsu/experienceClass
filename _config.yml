@@ -60,3 +60,6 @@ cache_name: DOCter-v1.1
 
 # Ideal image slider
 iis_slider_array: []
+
+gems:
+  -octopress-video-tag
