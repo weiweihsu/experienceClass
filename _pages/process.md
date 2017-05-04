@@ -25,8 +25,9 @@ This tool is integrated into both the text message and the Facebook messenger pl
 **CMS**
 
 Having a dynamic database that supports immediate update will help a medical center to keep their information up to date. A simple prototype was created to demonstrate how online spreadsheets can be  used as simple and collaborative databases. You can view the demo [here](https://groundedclouds.github.io/Sheetsee.cms/index.html).
-<img src="{{site.baseurl}}/assets/img/sheet_en.PNG" style="width:50%">
-<img src="{{site.baseurl}}/assets/img/sheet_ar.PNG" style="width:50%">
+<br>
+<img src="{{site.baseurl}}/assets/img/sheet_en.png" style="width:50%">
+<img src="{{site.baseurl}}/assets/img/sheet_ar.png" style="width:50%">
 
 
 <!-- The research phase in most projects often hint at several different design directions, even though the team only has time to prototype one direction thoroughly. Making the research process more transparent and traceable will enable us to build on each others' work if research findings and materials well documented.
