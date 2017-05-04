@@ -14,6 +14,7 @@ Visit this [page](https://drive.google.com/file/d/0BwKHqeB0SDApelY0QzNFZW5RQWM/v
 Assessing the patient is an important first step toward providing prosthetics care. Some amputees may benefit from using prosthetics over wheel chair, while some may not. This is a chatbot that helps the medical center to verify the patient's situation. It is also a tool used in the training process to help trainees in understanding the key components of patient assessment.
 
 This tool is integrated into both the text message and the Facebook messenger platform.
+<br>
 <img src="{{site.baseurl}}/assets/img/text_arab.PNG" style="width:20%">
 <img src="{{site.baseurl}}/assets/img/limbot.PNG" style="width:20%">
 
@@ -23,6 +24,9 @@ This tool is integrated into both the text message and the Facebook messenger pl
 
 **CMS**
 
+Having a dynamic database that supports immediate update will help a medical center to keep their information up to date. A simple prototype was created to demonstrate how online spreadsheets can be  used as simple and collaborative databases. You can view the demo [here](https://groundedclouds.github.io/Sheetsee.cms/index.html).
+<img src="{{site.baseurl}}/assets/img/sheet_en.PNG" style="width:50%">
+<img src="{{site.baseurl}}/assets/img/sheet_ar.PNG" style="width:50%">
 
 
 <!-- The research phase in most projects often hint at several different design directions, even though the team only has time to prototype one direction thoroughly. Making the research process more transparent and traceable will enable us to build on each others' work if research findings and materials well documented.
