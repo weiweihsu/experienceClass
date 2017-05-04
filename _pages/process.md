@@ -11,7 +11,9 @@ Visit this [page](https://drive.google.com/file/d/0BwKHqeB0SDApelY0QzNFZW5RQWM/v
 ## Prototypes
 
 **Patient Assessment Chatbot**
-
+<video width="320" height="240" autoplay>
+  <source src="{{site.baseurl}}/assets/movie/LIMbot.mp4" type="video/mp4">
+</video>
 
 **Study Guide**
 
