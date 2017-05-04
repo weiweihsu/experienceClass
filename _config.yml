@@ -57,3 +57,6 @@ brand_color: "#30228e"
 # Offline caching
 offline_cache: false
 cache_name: DOCter-v1.1
+
+# Ideal image slider
+iis_slider_array: []
