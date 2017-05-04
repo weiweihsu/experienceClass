@@ -14,9 +14,10 @@ Visit this [page](https://drive.google.com/file/d/0BwKHqeB0SDApelY0QzNFZW5RQWM/v
 Assessing the patient is an important first step toward providing prosthetics care. Some amputees may benefit from using prosthetics over wheel chair, while some may not. This is a chatbot that helps the medical center to verify the patient's situation. It is also a tool used in the training process to help trainees in understanding the key components of patient assessment.
 
 This tool is integrated into both the text message and the Facebook messenger platform.
-Text version in Arabic | Facebook message version in English
-:---------------------:|:-----------------------------------:
-<img src="{{site.baseurl}}/assets/img/text_arab.PNG" style="width:50%"> | <img src="{{site.baseurl}}/assets/img/limbot.PNG" style="width:50%">
+| [![VideoBlocks](https://github.com/weiweihsu/syrianrefugee/blob/master/assets/img/text_arab.PNG?raw=true)](http://videoblocks.com)  | [![AudioBlocks](https://github.com/weiweihsu/syrianrefugee/blob/master/assets/img/limbot.PNG?raw=true)](http://audioblocks.com) |
+|:---:|:---:|:---:|
+
+
 
 **Study Guide**
 
