@@ -29,12 +29,7 @@ This tool is integrated into both the text message and the Facebook messenger pl
 <img src="{{site.baseurl}}/assets/img/limbot.PNG" style="width:20%">
 
 Api.ai was used to create the chatbot.
-<img src="{{site.baseurl}}/assets/img/api1.png" style="width:60%">
 <img src="{{site.baseurl}}/assets/img/api2.png" style="width:60%">
-
-An amputation level diagram was created to be integrated into the Facebook Messenger bot.
-<img src="{{site.baseurl}}/assets/img/amputation_level_arabic.jpg" style="width:40%">
-<img src="{{site.baseurl}}/assets/img/amputation_level.jpg" style="width:40%">
 
 
 **Study Guide** [Demo](https://invis.io/59BILS6PS)
@@ -46,12 +41,12 @@ An amputation level diagram was created to be integrated into the Facebook Messe
 
 
 <img src="{{site.baseurl}}/assets/img/invision.PNG" style="width:20%">
-<br>
+<br><br><br>
 **CMS** [Demo](https://groundedclouds.github.io/Sheetsee.cms/index.html)
 
 Having a dynamic database that supports immediate update will help a medical center to keep their information up to date. A simple prototype was created to demonstrate how online spreadsheets can be used as simple and collaborative databases.<br>
-<img src="{{site.baseurl}}/assets/img/sheet_en.png" style="width:20%">
-<img src="{{site.baseurl}}/assets/img/sheet_ar.png" style="width:20%">
+<img src="{{site.baseurl}}/assets/img/sheet_en.png" style="width:50%">
+<img src="{{site.baseurl}}/assets/img/sheet_ar.png" style="width:50%">
 
 <!-- The research phase in most projects often hint at several different design directions, even though the team only has time to prototype one direction thoroughly. Making the research process more transparent and traceable will enable us to build on each others' work if research findings and materials well documented. As a result, the we have digitized all of our findings for the purpose of making our research process more transparent. While documenting our findings, we have also discovered the possibility of automating most of the documentation by leveraging [sheetsee.js](http://jlord.us/sheetsee.js/) (a client-side library for connecting Google Spreadsheets to a website and visualizing the information in tables and maps) made by [Jessica Lord](http://jlord.us/about.html). <img src="{{site.baseurl}}/assets/img/workflow.jpg" style="width:100%"> -->
 
