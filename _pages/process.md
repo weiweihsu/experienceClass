@@ -22,7 +22,7 @@ This is the data version of the blue print. It needs to be pushed into the final
 <br>
 Assessing the patient is an important first step toward providing prosthetics care. Some amputees may benefit from using prosthetics over wheel chair, while some may not. This is a chatbot that helps the medical center to verify the patient's situation. It is also a tool used in the training process to help trainees in understanding the key components of patient assessment.
 
-You can text the chatbot at +16193086066.
+You can text the chatbot at +16193086066, and you can view the Facebook Messenger chatbot [here](https://drive.google.com/file/d/0B6wVPZACLMW7UlE3NlZ5WmdYOE0/view?usp=sharing).
 
 This tool is integrated into both the text message and the Facebook messenger platform.<br>
 <img src="{{site.baseurl}}/assets/img/text_arab.PNG" style="width:20%">
@@ -66,3 +66,6 @@ At the front stage of this project, I made a declaration that if we worked all s
 
 **Andres:**
 I started off Experience class by feeling completely overwhelmed when it was communicated to us the amount of work that we would have to complete over the course of the semester; I felt it would be too much for me to handle, and at the end not be able to completely understand the overall knowledge of service design taught to us, and not be able to deliver the content that was required of us for our semester-long project.   As we completed the first individual project of re-designing a service and moved on to our research stage in our group, although still slightly skeptical of my abilities, my level of confidence slowly started rising because of the basic knowledge of identifying and creating a service that had been instructed by our professors, Christina Worsing, and Reena Al-Yassini.  Although I was interested in exploring the area of prosthetics and amputees, and merging it with the Syrian Refugee Crisis, I again started to feel like it would be too much for me to understand.  I slowly started to prove myself wrong as I started to collaboratively work with my team members, challenged myself to speak my mind out to the class and team members, and occasionally take leadership in my team’s group meetings.  Working with a partner (LIM Innovations) since the beginning of our project helped me to understand how our project could become a reality if it were to be deployed out in the real world.  At the end of our group project, I proved myself wrong in having proof that I was be able to understand the basic elements of a service, and collaboratively go through the different stages in building one.  I am confident in having the capacity, and knowledge of creating services in the future.
+
+**Weiwei:**
+This course has been a great learning experience for me to understand some of the moving parts of service design. I am now even more aware of how much more there is to learn, to sharpen, and to become fluent in. I have learned many lessons, likely more than I can recall.
